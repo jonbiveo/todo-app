@@ -4,8 +4,6 @@ const Todo = ({text}) => {
   return (
     <div>
       <li>{text}</li>
-      <button>Check</button>
-      <button>Delete</button>
     </div>
   )
 }

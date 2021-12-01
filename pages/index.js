@@ -18,7 +18,7 @@ const [todos, setTodos] = useState([]);
         <meta name="To-Do" content="A to do app" />
       </Head>
       <main className={styles.main}>
-        <h1 className={styles.title}>Welcome to my To-Do app {inputText}</h1>
+        <h1 className={styles.title}>Welcome to my To-Do app</h1>
         <Form todos={todos} setTodos={setTodos} inputText={inputText} setInputText={setInputText} />
         <TodoList todos={todos}/>
       </main>
